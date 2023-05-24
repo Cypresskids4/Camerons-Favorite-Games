@@ -1,0 +1,435 @@
+#mainTitle{
+    font-size: 6vmax;
+    text-align: center;
+}
+.row {
+    
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont {
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+.words {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row img {
+    margin: 10px;
+}
+
+
+img {
+
+    height: 20vw;
+    width: 20vw;
+}  
+h1 {
+
+    text-align: center;
+
+}
+
+#o {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#TNfightM {
+    display: flex;
+    justify-content: center;
+}
+
+#TomNook {
+    animation: Nook 1.5s linear infinite;
+}
+
+#Mario {
+    animation: Mario 1s linear infinite;
+}
+
+@keyframes Nook {
+    0% {
+        transform: translateX(0px) rotate(30deg);
+    }
+    50% {
+        transform: translateX(-5vmax) rotate(-30deg);
+    }
+    100% {
+        transform: translateX(0px) rotate(30deg);
+    }
+}
+
+@keyframes Mario {
+    0% {
+        transform: translateX(0px) rotate(-30deg);
+    }
+    50% {
+        transform: translateX(5vmax) rotate(30deg);
+    }
+    100% {
+        transform: translateX(0px)  rotate(-30deg);
+    }
+}
+#div1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.NoobandSteve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#NoobIMG{
+    animation: Noob 1s ease infinite;
+}
+
+#SteveIMG {
+    animation: Steve 1.5s ease infinite;
+}
+
+@keyframes Noob {
+    0% {
+        transform: translateX(5vmax);
+    }
+    20% {
+        transform: translateX(-5vmax);
+    }
+    40% {
+        transform: translateX(0px);
+    }
+    60% {
+        transform: translateX(25px);
+    }
+    80% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(5vmax);
+    }
+}
+
+@keyframes Steve {
+    0% {
+        transform: translateX(-5vmax);
+    }
+    20% {
+        transform: translateX(5vmax);
+    }
+    40% {
+        transform: translateX(0px);
+    }
+    60% {
+        transform: translateX(-25px);
+    }
+    80% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-5vmax);
+    }
+}
+
+.aa{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.EE{
+margin-top: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+#rooms {
+    animation: roomJump 1.2s linear infinite;
+}
+
+@keyframes roomJump{
+    0% {
+        transform: translateX(-90px)
+    }
+    7.6% {
+        transform: translateX(-72px) translateY(0px)
+    }
+    15.2% {
+        transform: translateX(-60px) translateY(-10px);
+    }
+    22.8% {
+        transform: translateX(-48px) translateY(-30px);
+    }
+    30.4% {
+        transform: translateX(-36px) translate(10px)
+    }
+    45.6% {
+        transform: translateX(-12px) translateY(3px)
+    }
+    53.2% {
+        transform: translateX(45px) translateY(0px)
+    }
+    60.8% {
+        transform: translateX(0px) translateY(0px);
+    }
+
+    100% {
+        transform: translateX(-90px)
+    }
+
+}
+
+#beds {
+    animation: bedJump 1s linear infinite;
+    z-index: -1;
+}
+
+@keyframes bedJump{
+    0% {
+        transform: translateX(90px) translateY(0px)
+    }
+    7.6% {
+        transform: translateX(72px) translateY(-3px)
+    }
+    15.2% {
+        transform: translateX(60px) translateY(-10px);
+    }
+    22.8% {
+        transform: translateX(48px) translateY(-30px);
+    }
+    30.4% {
+        transform: translateX(36px) translate(10px)
+    }
+    45.6% {
+        transform: translateX(12px) translateY(3px)
+    }
+    53.2% {
+        transform: translateX(-60px) translateY(0px)
+    }
+    60.8% {
+        transform: translateX(0px) translateY(0px);
+    }
+
+    100% {
+        transform: translateX(90px)
+    }
+
+}
+
+h1 {
+    font-size: 4vmax;
+}
+
+
+.finalVS {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+}   
+
+.dfr{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.roomCont {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.finalBattle {
+    margin: 20px;
+}
+
+#finalMario {
+    animation: finalMarioHit 2s linear infinite;
+    z-index: 1;
+}
+
+#finalSteve {
+    animation: finalSteveHit 3s linear infinite;
+
+}
+
+#finalRoom {
+    animation: finalRoomHit 4s linear infinite;
+    z-index: 2;
+}
+
+@keyframes finalSteveHit {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+    22.5% {
+        transform: translateX(7vw) translateY(-7vw);
+    }
+    25% {
+        transform: translateX(12vw) translateY(-12vw);
+    }
+
+    27.5% {
+        transform: translateX(7vw) translateY(-7vw);
+    }
+    
+    50% {
+        transform: translateX(0px) translateY(0px);
+    }
+    72.5% {
+        transform: translateX(25vw) translateY(0);
+    }
+    75% {
+        transform: translateX(32vw) translateY(0px);
+    }
+    77.5% {
+        transform: translateX(25vw) translateY(0px);
+    }
+    100% {
+        transform: translateX(0px) translateY(0px);
+    }
+}
+
+ @keyframes finalMarioHit {
+    
+    0% {
+        transform: translateX(0) translateY(0) rotate(0deg);
+    }
+
+    33.3% {
+        transform: translateX(-23vw) translateY(-25vw) rotate(-360deg);
+    }
+
+    66.6% {
+        transform: translateX(-45vw) translateY(0) rotate(-720deg);
+    }
+
+    100% {
+        transform: translateX(0) translateY(0) rotate(-1080deg);
+    }
+ }
+
+ @keyframes finalRoomHit {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+
+    25% {
+        transform: translateX(0) translateY(-10vw);
+    }
+
+    50% {
+        transform: translateX(0) translateY(-10vw);
+    }
+
+    55% {
+        transform: translateX(0) translateY(20vw);
+    }
+
+    60% {
+        transform: translateX(-20vw) translateY(20vw);
+    }
+
+    65% {
+        transform: translateX(0) translateY(20vw);
+    }
+
+    70% {
+        transform: translateX(20vw) translateY(20vw);
+    }
+
+    75% {
+       transform: translateX(0) translateY(20vw);
+        
+    }
+
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+ }
+ body{
+    background-color: rgb(59, 101, 158);
+ }
+
+ .uo{
+   height: 80px; 
+    width: 80px;
+ }
+
+ .jjjj{
+    font-size: 5vmax;
+ }
+
+ .plo{
+    font-size: 5vmax;
+ }
+
+ .opi{
+    font-size: 5vmax;
+ }
+
+ .jpo{
+    font-size: 5vmax;
+ }
+
+ .nop{
+    font-size: 5vmax;
+ }
+
+ .rop{
+    font-size:5vmax;
+ }
+
+ .tyo{
+    font-size: 5vmax;
+ }
+
+ .roo{
+    font-size: 5vmax;
+ }
+
+ .tot{
+    font-size: 5vmax;
+ }
+
+ .ppp{
+    font-size: 5vmax;
+ }
+
+ .yyyop{
+    font-size: 5vmax;
+ }
+
+ .iii{
+    font-size: 5vmax;
+ }
+
+ .ooo{
+    font-size: 5vmax;
+ }      
+
+ .lol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ 
